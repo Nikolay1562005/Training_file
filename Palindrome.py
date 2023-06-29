@@ -8,4 +8,4 @@ if __name__ == "__main__":
         if word.count(" ") == 0:
             print(f'Это слово палиндром: {palindrome(word.lower())}')
         else:
-            print("Нужно вводить слово, а не выражение!")
+            print('Нужно вводить слово, а не выражение!')
