@@ -2,7 +2,7 @@ def palindrome(word):
     return word == word[::-1]
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     while True:
         word = input("Введите слово: ")
         if word.count(" ") == 0:
