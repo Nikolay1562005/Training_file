@@ -26,7 +26,7 @@ print("Введите название товара: ")
 good=input()
 quantity_good=0
 if good in goods:
-    quantity_good=0
+    quantity_good = 0
     good_stores=stores[goods[good]] #список из словаря stores  
     all_price=0
     for number_for_list  in range(len(good_stores)):
@@ -35,4 +35,3 @@ if good in goods:
     print(str(good) + " - " + str(quantity_good) + " шт, стоимость " + str(all_price) + "руб")
 else:
     Print("товара нет на складе")
-    
