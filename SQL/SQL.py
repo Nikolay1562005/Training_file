@@ -15,17 +15,21 @@ class Database:  # создание класса для общения и изм
 
     def create_table(self):  # метод класса создающий БД
         with self.connection:
-            self.cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER)')
+            self.cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, gender TEXT)')
 
-    def add_user(self, name, age):  # метод добавляющий данные пользователя в БД
+    def add_user(self, name, age, gender):  # метод добавляющий данные пользователя в БД
         with self.connection:
-            self.cursor.execute('INSERT INTO users (name, age) VALUES (?, ?)', (name, age))
+            self.cursor.execute('INSERT INTO users (name, age, gender) VALUES (?, ?, ?)', (name, age, gender))
             # вопросами обозначаются места подстановки данных из кортежа
             # если кортеж с одним данным нужно поставить запятую, чтоб кортеж существовал: (Ivan, )
 
     def get_users_list(self):  # метод выводящий список пользователей
         with self.connection:
             return self.cursor.execute('SELECT * FROM users').fetchall()  # метод позваляющий собрать данные в список кортежей
+
+def get_gender_users_list(self, gender):  # метод выводящий список пользователей по полу
+    with self.connection:
+        return self.cursor.execute('SELECT * FROM users WHERE gender = ?', (gender,)).fetchall()  # метод позваляющий собрать данные в список кортежей
 
 
     def get_user(self, user_id):  # медод получения данных пользователя по ID
@@ -45,11 +49,14 @@ class Database:  # создание класса для общения и изм
             self.cursor.execute('DELETE FROM users')
 
 
+
+
 if __name__ == '__main__':
-    db = Database('urok_11_27.db')
+    db = Database('user_data.db')
     db.create_table()
-    db.add_user('DIMA', 21)
-    db.add_user('Ivan', 15)
+    db.add_user('DIMA', 21, "Man")
+    db.add_user('Ivan', 15, "Man")
+    db.add_user('Ira', 45, "Woman")
     print(db.get_users_list())
     print(db.get_user(2))
     db.update_user_age(1, 1999)
@@ -57,3 +64,4 @@ if __name__ == '__main__':
     print(db.get_users_list())
     #db.del_all_users()
     print(db.get_users_list())
+    print(db.get_gender_users_list('Woman'))
