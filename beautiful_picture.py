@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 import turtle as t
 
 t.title("rainbow!")
 t.speed(15)
 t.bgcolor("black")
 r, g, b = 255, 0, 0
-for i in range(255*10):
+for i in range(255 * 10):
     t.colormode(255)
     if i < 255 // 3:
         g += 3
@@ -25,14 +24,15 @@ for i in range(255*10):
             r += 3
     else:
         b += 3
-=======
+
 from turtle import *
+
 tracer(0)
 title("rainbow!")
 speed(15)
 bgcolor("black")
 r, g, b = 255, 0, 0
-for i in range(255*10):
+for i in range(255 * 10):
     colormode(255)
     if i < 255 // 3:
         g += 1
@@ -52,23 +52,20 @@ for i in range(255*10):
             r += 1
     else:
         b += 1
->>>>>>> 141b794 (Initial commit)
     if r > 255:
         r = 0
     elif g > 255:
         g = 0
     elif b > 255:
         b = 0
-<<<<<<< HEAD
+
     t.fd(50 + i)
     t.rt(91)
     t.pencolor(r, g, b)
 t.mainloop()
 
-=======
-    fd(50 + i)
-    rt(91)
-    pencolor(r, g, b)
+fd(50 + i)
+rt(91)
+pencolor(r, g, b)
 update()
 exitonclick()
->>>>>>> 141b794 (Initial commit)

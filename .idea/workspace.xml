@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6211581-80af-4c5c-a3fb-2b5a102e53f4" name="Changes" comment="I implemented a word check for a palindrome by inverting the word and the string comparison operator, implemented protection against writing expressions instead of the word and for the reduction everything is reduced to lowercase.">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EGE/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_attribute_get_and_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database_in_the_program.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tx.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class__add__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class__add__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Игра алхимия/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Игра алхимия/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Считает общую сумму товаров на складе.py" beforeDir="false" afterPath="$PROJECT_DIR$/Считает общую сумму товаров на складе.py" afterDir="false" />
+    <list default="true" id="c6211581-80af-4c5c-a3fb-2b5a102e53f4" name="Changes" comment="I make a lot of work">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EGE/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/urok_11_27.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beautiful_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/beautiful_picture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Прогрессии и рекурси/Геометрическая прогрессия.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Прогрессии и рекурси/Числа Фибоначчи.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Прогрессии и рекурси/проверка.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Прогрессии и рекурси/прогрессия.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Прогрессии и рекурси/счёт закрашенных кубиков.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Python programs for education/Training_filse&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -67,8 +74,8 @@
       <recent name="C:\Python programs for education\Training_filse\Прогрессии и рекурси" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lambda_2">
-    <configuration name="хз" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Game">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Training_filse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/хз.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Генератор" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Training_filse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Генератор.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class__add__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Training_filse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class__add__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_attribute_get_and_set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Gruppa_4_KorenyuginaLM_AD_4_DDZ_slozhnaya_zadacha_10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Training_filse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_attribute_get_and_set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gruppa_4_KorenyuginaLM_AD_4_DDZ_slozhnaya_zadacha_10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lambda_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="beautiful_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Training_filse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,28 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lambda_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Training_filse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Игра алхимия" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Игра алхимия/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beautiful_picture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lambda_2" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.хз" />
-        <item itemvalue="Python.class__add__" />
-        <item itemvalue="Python.class_attribute_get_and_set" />
+        <item itemvalue="Python.Game" />
+        <item itemvalue="Python.beautiful_picture" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.Gruppa_4_KorenyuginaLM_AD_4_DDZ_slozhnaya_zadacha_10" />
+        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1688029230467</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="I make a lot of work">
+      <option name="closed" value="true" />
+      <created>1690382561402</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690382561402</updated>
+    </task>
+    <task id="LOCAL-00010" summary="I make a lot of work">
+      <option name="closed" value="true" />
+      <created>1690544852576</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690544852582</updated>
+    </task>
+    <task id="LOCAL-00011" summary="I make a lot of work">
+      <option name="closed" value="true" />
+      <created>1690547105447</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690547105447</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +305,7 @@
     <MESSAGE value="Я реализовал проверку слова на палиндром с помощью инвертирования слова и оператора сравнения строки, реализована защита от написания вместо слова выражения и для упращения всё приводится к нижнему регистру." />
     <MESSAGE value="My first commit" />
     <MESSAGE value="I implemented a word check for a palindrome by inverting the word and the string comparison operator, implemented protection against writing expressions instead of the word and for the reduction everything is reduced to lowercase." />
-    <option name="LAST_COMMIT_MESSAGE" value="I implemented a word check for a palindrome by inverting the word and the string comparison operator, implemented protection against writing expressions instead of the word and for the reduction everything is reduced to lowercase." />
+    <MESSAGE value="I make a lot of work" />
+    <option name="LAST_COMMIT_MESSAGE" value="I make a lot of work" />
   </component>
 </project>
